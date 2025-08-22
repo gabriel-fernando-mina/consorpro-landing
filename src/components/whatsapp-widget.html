@@ -1,0 +1,12 @@
+<script>
+  window.addEventListener('DOMContentLoaded', ()=>{
+    // Mensaje automático solo la primera vez
+    if (!localStorage.getItem('wsGreeted')) {
+      setTimeout(()=>{
+        alert("¡Hola! ¿Querés ayuda? Escribinos por WhatsApp haciendo click en el botón verde.");
+        localStorage.setItem('wsGreeted','yes');
+      }, 3000);
+    }
+  });
+</script>
+<!-- ...el resto del widget igual que antes -->

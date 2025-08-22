@@ -1,0 +1,10 @@
+<svg width="180" height="48" xmlns="http://www.w3.org/2000/svg">
+    <g font-family="Segoe UI, Arial, sans-serif">
+        <!-- Círculo claro para destacar -->
+        <circle cx="24" cy="24" r="24" fill="#cae9ff"/>
+        <!-- Letra C en azul oscuro -->
+        <text x="18" y="32" font-size="24" fill="#1b4965" font-weight="bold">C</text>
+        <!-- Texto ConsorPro en blanco para máximo contraste -->
+        <text x="54" y="32" font-size="24" fill="#ffffff" font-weight="bold">ConsorPro</text>
+    </g>
+</svg>
