@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" aria-label="Cloud seguro">
+    <defs>
+        <linearGradient id="cloudGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#5fa8d3"/>
+            <stop offset="100%" stop-color="#1b4965"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <ellipse cx="30" cy="38" rx="18" ry="10" fill="url(#cloudGrad)" opacity=".9"/>
+        <ellipse cx="40" cy="34" rx="10" ry="7" fill="url(#cloudGrad)" opacity=".85"/>
+        <ellipse cx="22" cy="34" rx="9" ry="6" fill="url(#cloudGrad)" opacity=".8"/>
+        <!-- Candado -->
+        <rect x="27" y="28" width="6" height="8" rx="2" fill="#fff"/>
+        <rect x="28.5" y="25" width="3" height="5" rx="1.5" fill="#fff"/>
+        <circle cx="30" cy="32" r="1" fill="#1b4965"/>
+    </g>
+</svg>

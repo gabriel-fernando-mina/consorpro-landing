@@ -259,7 +259,7 @@ details[open] { box-shadow: 0 4px 14px #5fa8d333;}
 .contact-form input, .contact-form textarea {
     padding: 10px 8px;
     border-radius: 5px;
-    border: 1.5px solid #b0bec5;
+    border: 2px solid #b0bec5;
     font-size: 1.03rem;
     font-family: inherit;
     margin-bottom: 2px;
@@ -328,4 +328,30 @@ footer {
     .hero-img img { width: 100%; height: auto;}
     .btn-primary, .cta-sticky { width: 100%; font-size: 1.1em;}
     .footer-flex {gap: 10px;}
+}
+:root {
+    /* ... */
+    --background-dark: #181c21;
+    --text-dark: #e2e8f0;
+    --accent-dark: #274472;
+}
+/* ... */
+body.darkmode {
+    background: var(--background-dark);
+    color: var(--text-dark);
+}
+body.darkmode header,
+body.darkmode footer {
+    background: var(--accent-dark);
+    color: var(--text-dark);
+}
+
+/* Espacio extra entre contacto y footer para mejor visibilidad */
+#contacto { margin-bottom: 80px; }
+/* Efecto de resaltado al enfocar el bloque de contacto */
+.highlight-contact {
+    box-shadow: 0 0 0 5px #bee9e8;
+    outline: 2px solid #5fa8d3;
+    border-radius: 12px;
+    transition: box-shadow 0.4s, outline 0.4s;
 }

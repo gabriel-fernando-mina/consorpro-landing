@@ -1,0 +1,12 @@
+<form id="pdf-lead" class="pdf-lead-form">
+  <label for="lead-email">Recibí la guía gratis:</label>
+  <input type="email" id="lead-email" required placeholder="Tu email">
+  <button type="submit">Descargar PDF</button>
+</form>
+<script>
+  document.getElementById('pdf-lead').addEventListener('submit', e=>{
+    e.preventDefault();
+    // Aquí enviar a tu backend o a un servicio de email
+    window.open('src/docs/guia-consorpro.pdf', '_blank');
+  });
+</script>
